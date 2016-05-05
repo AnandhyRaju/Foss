@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Sign In</title>
+
+
+	<link rel="stylesheet" href="form-validation.css">
+
+
+</head>
+
+
+    <div class="main-content">
+
+        <!-- You only need this form and the form-validation.css -->
+
+        <form class="form-validation" method="post" action="php/login2.php">
+
+            <div class="form-title-row">
+                <h1>Job Seeker Log In</h1>
+            </div>
+
+
+
+            <div class="form-row form-input-email-row">
+
+                <label>
+                    <span>Email</span>
+                    <input type="email" name="email" value="">
+                </label>
+
+                <span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+
+            </div>
+            <div class="form-row form-input-email-row">
+
+                <label>
+                    <span>Password</span>
+                    <input type="password" name="password" value="">
+                </label>
+
+                <span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+
+            </div>
+
+
+            <div class="form-row">
+
+                <button type="submit">Login</button>
+
+
+
+            </div>
+
+           <style>
+            a:link {
+        
+        text-decoration: none;
+            }
+            </style>
+             
+						<label>
+								<span>New to Jobs Qube?</span>
+								<a href="registration2.html">Register</a>
+						</label>
+
+
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,757 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JobsQube | Home</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="form-validation.css">
+<link rel="stylesheet" type="text/css" href="css/login_style.css">
+<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="js/login_effect.js"></script>
+<script src="js/validation.js"> </script>
+<link rel="stylesheet" href="css/sty.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<script type="text/javascript" src="js/test.js"></script>
+</head>
+<script type="text/javascript">
+    function validateForm() {
+        return checkPhone();
+    }
+    function checkPhone() {
+        var phone = document.forms["myForm"]["phone"].value;
+        var phoneNum = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+            if(phone.value.match(phoneNum)) {
+                return true;
+            }
+            else {
+                document.getElementById("phone").className = document.getElementById("phone").className + " error";
+                return false;
+            }
+        }
+</script>
+<style>
+
+
+div.footer1
+{
+	width: 100%;
+   bottom:1%;
+   left-margin:0px;
+   background-color:#5f5458;
+   color:#292426;
+   clear:both;
+   text-align:left;
+   padding:px;
+   line-height:200%;
+   font-family:"Arial";
+}
+div.footer
+{
+   bottom:0px;
+   background-color:#292426;
+   color:#edb9d4;
+   clear:both;
+   text-align:center;
+   padding:1px;
+   line-height:200%;
+   font-family:"Arial";
+}
+div.para{
+	background-color: #fecb16;
+	padding: 24px;
+	text-align: justify;
+
+
+}
+
+div.para1{
+	background-color: #00bff3;
+	padding: 55px;
+	text-align: justify;
+	}
+  .jssorb05 {
+             position: absolute;
+         }
+         .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+             position: absolute;
+             /* size of bullet elment */
+             width: 16px;
+             height: 16px;
+             background: url('img/b05.png') no-repeat;
+             overflow: hidden;
+             cursor: pointer;
+         }
+         .jssorb05 div { background-position: -7px -7px; }
+         .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+         .jssorb05 .av { background-position: -67px -7px; }
+         .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+         /* jssor slider arrow navigator skin 22 css */
+         /*
+         .jssora22l                  (normal)
+         .jssora22r                  (normal)
+         .jssora22l:hover            (normal mouseover)
+         .jssora22r:hover            (normal mouseover)
+         .jssora22l.jssora22ldn      (mousedown)
+         .jssora22r.jssora22rdn      (mousedown)
+         */
+         .jssora22l, .jssora22r {
+             display: block;
+             position: absolute;
+             /* size of arrow element */
+             width: 40px;
+             height: 58px;
+             cursor: pointer;
+             background: url('img/a22.png') center center no-repeat;
+             overflow: hidden;
+         }
+         .jssora22l { background-position: -10px -31px; }
+         .jssora22r { background-position: -70px -31px; }
+         .jssora22l:hover { background-position: -130px -31px; }
+         .jssora22r:hover { background-position: -190px -31px; }
+         .jssora22l.jssora22ldn { background-position: -250px -31px; }
+         .jssora22r.jssora22rdn { background-position: -310px -31px; }
+</style>
+<body>
+
+  <div class="switcher" style="left:-50px;">
+      <a id="switch-panel" class="hide-panel">
+          <i class="fa fa-recycle"></i>
+
+      </a>
+      <p style="font-size:10px">choose</p>
+      <ul class="colors-list">
+          <li><a title="Green" id="green" class="green" ></a></li>
+          <li><a title="Red" id="red" class="red" ></a></li>
+      </ul>
+  </div>
+  <!--END STYLE SWITCHER-->
+  <div class="navbar navbar-default navbar-fixed-top move-me" id="menu">
+      <div class="container">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a href="index.html">
+              <img src="img/joblogo.png" height="80px" width="100px">
+              </a>
+          </div>
+          <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                  
+                   <li><a href="#contact" data-popup-open="popup-1">CONTACT US</a></li>
+                  
+ 
+<div class="popup" data-popup="popup-1">
+    <div class="popup-inner">
+        <h1>jobsqube2net@gmail.com</h1>
+        <h2>Enter Your Message</h2><br>
+        <form action="demo_form.asp" id="usrform">
+        <!--TEXT-AREA-->
+        <textarea id="comment" rows="4" cols="50" name="comment" form="usrform" onkeyup="setHeight('comment');" onkeydown="setHeight('comment');">
+Enter text here...</textarea><br><br>
+
+<!--JAVASCRIPT-->
+
+<input type="button" value="Send" class="btn btn-primary" role="button" id="sendmail"><span aria-hidden="true"></span>
+  </form>
+
+
+
+        
+        <p><a data-popup-close="popup-1" href="#">Close</a></p>
+        <a class="popup-close" data-popup-close="popup-1" href="#">x</a>
+
+    </div>
+</div>
+
+
+                   
+                </ul>
+          </div>
+
+      </div>
+  </div>
+
+  <script type="text/javascript">
+function setHeight(fieldId){
+    document.getElementById(fieldId).style.height = document.getElementById(fieldId).scrollHeight+'px';
+}
+setHeight('textBox1');
+</script>
+  <body style="padding:0px; margin:0px; background-color:#fff;font-family:Arial, sans-serif">
+
+      <!-- #region Jssor Slider Begin -->
+
+      <!-- Generated by Jssor Slider Maker. -->
+      <!-- This demo works without jquery library. -->
+
+      <script type="text/javascript" src="js/jssor.slider.min.js"></script>
+      <!-- use jssor.slider.debug.js instead for debug -->
+      <script>
+          jssor_1_slider_init = function() {
+
+              var jssor_1_SlideoTransitions = [
+                [{b:5500,d:3000,o:-1,r:240,e:{r:2}}],
+                [{b:-1,d:1,o:-1,c:{x:51.0,t:-51.0}},{b:0,d:1000,o:1,c:{x:-51.0,t:51.0},e:{o:7,c:{x:7,t:7}}}],
+                [{b:-1,d:1,o:-1,sX:9,sY:9},{b:1000,d:1000,o:1,sX:-9,sY:-9,e:{sX:2,sY:2}}],
+                [{b:-1,d:1,o:-1,r:-180,sX:9,sY:9},{b:2000,d:1000,o:1,r:180,sX:-9,sY:-9,e:{r:2,sX:2,sY:2}}],
+                [{b:-1,d:1,o:-1},{b:3000,d:2000,y:180,o:1,e:{y:16}}],
+                [{b:-1,d:1,o:-1,r:-150},{b:7500,d:1600,o:1,r:150,e:{r:3}}],
+                [{b:10000,d:2000,x:-379,e:{x:7}}],
+                [{b:10000,d:2000,x:-379,e:{x:7}}],
+                [{b:-1,d:1,o:-1,r:288,sX:9,sY:9},{b:9100,d:900,x:-1400,y:-660,o:1,r:-288,sX:-9,sY:-9,e:{r:6}},{b:10000,d:1600,x:-200,o:-1,e:{x:16}}]
+              ];
+
+              var jssor_1_options = {
+                $AutoPlay: true,
+                $SlideDuration: 800,
+                $SlideEasing: $Jease$.$OutQuint,
+                $CaptionSliderOptions: {
+                  $Class: $JssorCaptionSlideo$,
+                  $Transitions: jssor_1_SlideoTransitions
+                },
+                $ArrowNavigatorOptions: {
+                  $Class: $JssorArrowNavigator$
+                },
+                $BulletNavigatorOptions: {
+                  $Class: $JssorBulletNavigator$
+                }
+              };
+
+              var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+              //responsive code begin
+              //you can remove responsive code if you don't want the slider scales while window resizing
+              function ScaleSlider() {
+                  var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                  if (refSize) {
+                      refSize = Math.min(refSize, 1920);
+                      jssor_1_slider.$ScaleWidth(refSize);
+                  }
+                  else {
+                      window.setTimeout(ScaleSlider, 30);
+                  }
+              }
+              ScaleSlider();
+              $Jssor$.$AddEvent(window, "load", ScaleSlider);
+              $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+              $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+              //responsive code end
+          };
+      </script>
+
+      <style>
+
+          /* jssor slider bullet navigator skin 05 css */
+          /*
+          .jssorb05 div           (normal)
+          .jssorb05 div:hover     (normal mouseover)
+          .jssorb05 .av           (active)
+          .jssorb05 .av:hover     (active mouseover)
+          .jssorb05 .dn           (mousedown)
+          */
+          .jssorb05 {
+              position: absolute;
+          }
+          .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+              position: absolute;
+              /* size of bullet elment */
+              width: 16px;
+              height: 16px;
+              background: url('img/b05.png') no-repeat;
+              overflow: hidden;
+              cursor: pointer;
+          }
+          .jssorb05 div { background-position: -7px -7px; }
+          .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+          .jssorb05 .av { background-position: -67px -7px; }
+          .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+          /* jssor slider arrow navigator skin 22 css */
+          /*
+          .jssora22l                  (normal)
+          .jssora22r                  (normal)
+          .jssora22l:hover            (normal mouseover)
+          .jssora22r:hover            (normal mouseover)
+          .jssora22l.jssora22ldn      (mousedown)
+          .jssora22r.jssora22rdn      (mousedown)
+          */
+          .jssora22l, .jssora22r {
+              display: block;
+              position: absolute;
+              /* size of arrow element */
+              width: 40px;
+              height: 58px;
+              cursor: pointer;
+              background: url('img/a22.png') center center no-repeat;
+              overflow: hidden;
+          }
+          .jssora22l { background-position: -10px -31px; }
+          .jssora22r { background-position: -70px -31px; }
+          .jssora22l:hover { background-position: -130px -31px; }
+          .jssora22r:hover { background-position: -190px -31px; }
+          .jssora22l.jssora22ldn { background-position: -250px -31px; }
+          .jssora22r.jssora22rdn { background-position: -310px -31px; }
+          .footerBottom {
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto !important;
+    text-align: center !important;
+    width: 100% !important;
+    height:60px;
+  }
+      </style>
+
+
+      <div id="jssor_1" style="position: relative; margin: 0 auto; top: -20px; left: 0px; width: 1300px; height: 470px; overflow: hidden; visibility: hidden;">
+          <!-- Loading Screen -->
+          <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+              <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+              <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+          </div>
+          <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+              <div data-p="225.00" style="display: none;">
+                  <img data-u="image" src="img/banner2.jpg" />
+                  <div style="position: absolute; top: 30px; left: 30px; width: 480px; height: 120px; font-size: 50px; color: #ffffff; line-height: 60px;">
+
+              </div>
+                  <div style="position: absolute; top: 300px; left: 30px; width: 480px; height: 120px; font-size: 30px; color: #ffffff; line-height: 38px;"></div>
+                  <div data-u="caption" data-t="0" style="position: absolute; top: 100px; left: 600px; width: 445px; height: 300px;">
+                              </div>
+                  <div data-u="caption" data-t="5" style="position: absolute; top: 120px; left: 650px; width: 470px; height: 220px;">
+
+                      <div style="position: absolute; top: 4px; left: 45px; width: 379px; height: 213px; overflow: hidden;">
+                                              </div>
+                    </div>
+              </div>
+              <div data-p="225.00" style="display: none;">
+                  <img data-u="image" src="img/ban3.jpg" />
+              </div>
+              <div data-p="225.00" style="display: none;">
+                  <img data-u="image" src="img/banner 4.jpg" />
+              </div>
+              <a data-u="ad" href="" style="display:none">jQuery Slider</a>
+
+          </div>
+          <!-- Bullet Navigator -->
+          <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+              <!-- bullet navigator item prototype -->
+              <div data-u="prototype" style="width:16px;height:16px;"></div>
+          </div>
+          <!-- Arrow Navigator -->
+          <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
+          <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
+      </div>
+      <script>
+          jssor_1_slider_init();
+      </script>
+
+      <!-- #endregion Jssor Slider End -->
+    <div class="container-fluid">
+        <div class="row text-center">
+
+          <div class="col-lg-4 col-lg-4 col-lg-4">
+            <div class="thumbnail"> <img src="img/c1.png" alt="Thumbnail Image 1" class="img-responsive">
+							<div class="caption">
+								<h3>EMPLOYERS</h3>
+								<input type="button" value="Log In" class="btn btn-primary" role="button" id="show_login"><span aria-hidden="true"></span>
+
+                   <div id = "loginform">
+
+                        <div class="main-content">       
+
+         <form class="form-validation" method="post" action="php/login.php">
+
+            <div class="form-title-row">
+                <h3>Employer Log In</h3>
+            </div>
+            <div class="form-row form-input-email-row">
+
+                <label>
+                    <span>Email</span>
+                    <input type="email" name="email" value="">
+                </label>               
+
+            </div>
+            <div class="form-row form-input-email-row">
+
+                <label>
+                    <span>Password</span>
+                    <input type="password" name="password" value="">
+                </label>
+                
+            </div>
+            <div class="form-row">
+                <button type="submit">Login</button>
+            </div>
+
+                    <style>
+                        a:link {        
+                        text-decoration: none;
+                                }
+                    </style>
+            <label>
+            <br>
+                <span>New to Jobs Qube?</span>
+                <a href="registration.html">Register</a>
+            </label>
+
+
+            </form>
+
+        </div>
+
+                   </div> 
+            	<input type="button" value="Sign Up" class="btn btn-primary" role="button" id="show_signup"><span aria-hidden="true"></span>
+                <div id="signupform">
+                <div class="main-content">
+
+        <!-- You only need this form and the form-validation.css -->
+
+        <form class="form-validation" method="post" action="php/registration.php" onsubmit = "return validateForm()">
+
+            <div class="form-title-row">
+                <h1>Employer Sign Up</h1>
+            </div>
+
+            <div class="form-row form-input-name-row">
+
+                <label>
+                    <span>Full name</span>
+                    <input type="text" name="name">
+                </label>
+
+                <!--
+                    Add these three elements to every form row. They will be shown by the
+                    .form-valid-data and .form-invalid-data classes (see the JS for an example).
+                -->
+
+                <span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+
+            </div>
+
+
+            <div class="form-row form-input-email-row">
+
+                <label>
+                    <span>Email</span>
+                    <input type="email" name="email" value="">
+                </label>
+
+                <span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+
+            </div>
+            <div class="form-row form-input-email-row">
+
+                <label>
+                    <span>Password</span>
+                    <input type="password" name="password" value="">
+                </label>
+
+                <span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+
+            </div>
+            <div class="form-row form-input-email-row">
+
+                <label>
+                    <span>Confirm Password</span>
+                    <input type="password" name="conpassword" value="">
+                </label>
+
+                <span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+
+            </div>
+            <div class="form-row form-input-email-row">
+
+                <label>
+                    <span>Mobile</span>
+                    <input type="" name="mob" value="">
+                </label>
+
+                <span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+
+            </div>
+
+
+            <div class="form-row">
+
+                <label class="form-checkbox">
+                    <span>Gender</span>
+                    <input type="radio" name="gender"  value="male"checked>male
+                    <input type="radio" name="gender" value="female">female
+                </label>
+
+            </div>
+
+            <div class="form-row">
+
+                <button type="submit"> Submit</button>
+
+            </div>
+
+        </form>
+
+    </div>
+                </div>
+							</div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-lg-4 col-lg-4">
+            <div class="thumbnail">
+							<img src="img/contest1.jpg" alt="Thumbnail Image 1" class="img-responsive">
+              <div class="caption">
+                <h3></h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-lg-4 col-lg-4">
+            <div class="thumbnail"> <img src="img/c2.png" alt="Thumbnail Image 1" class="img-responsive">
+							<div class="caption">
+								<h3>JOB SEEKERS</h3>
+
+								<input type="button" value="Log In" class="btn btn-primary" role="button" id="show_login1"><span aria-hidden="true"></span>
+               
+                <div id = "loginform1">
+                <div class="main-content">       
+
+         <form class="form-validation" method="post" action="php/login.php">
+
+            <div class="form-title-row">
+                <h3>Job Seeker Log In</h3>
+            </div>
+            <div class="form-row form-input-email-row">
+
+                <label>
+                    <span>Email</span>
+                    <input type="email" name="email" value="">
+                </label>               
+
+            </div>
+            <div class="form-row form-input-email-row">
+
+                <label>
+                    <span>Password</span>
+                    <input type="password" name="password" value="">
+                </label>
+                
+            </div>
+            <div class="form-row">
+                <button type="submit">Login</button>
+            </div>
+
+                    <style>
+                        a:link {        
+                        text-decoration: none;
+                                }
+                    </style>
+            <label>
+            <br>
+                <span>New to Jobs Qube?</span>
+                <a href="registration.html">Register</a>
+            </label>
+
+
+            </form>
+
+        </div>
+                </div>
+                
+								
+                <input type="button" value="Sign Up" class="btn btn-primary" role="button" id="show_signup1"><span aria-hidden="true"></span>
+                <div id="signupform1">
+                <div class="main-content">
+
+        <!-- You only need this form and the form-validation.css -->
+
+        <form class="form-validation" method="post" action="php/registration.php" onsubmit = "return validateForm()">
+
+            <div class="form-title-row">
+                <h1>Job Seeker Sign Up</h1>
+            </div>
+
+            <div class="form-row form-input-name-row">
+
+                <label>
+                    <span>Full name</span>
+                    <input type="text" name="name">
+                </label>
+
+                <!--
+                    Add these three elements to every form row. They will be shown by the
+                    .form-valid-data and .form-invalid-data classes (see the JS for an example).
+                -->
+
+                <span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+
+            </div>
+
+
+            <div class="form-row form-input-email-row">
+
+                <label>
+                    <span>Email</span>
+                    <input type="email" name="email" value="">
+                </label>
+
+                <span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+
+            </div>
+            <div class="form-row form-input-email-row">
+
+                <label>
+                    <span>Password</span>
+                    <input type="password" name="password" value="">
+                </label>
+
+                <span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+
+            </div>
+            <div class="form-row form-input-email-row">
+
+                <label>
+                    <span>Confirm Password</span>
+                    <input type="password" name="conpassword" value="">
+                </label>
+
+                <span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+
+            </div>
+            <div class="form-row form-input-email-row">
+
+                <label>
+                    <span>Mobile</span>
+                    <input type="" name="mob" value="">
+                </label>
+
+                <span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+
+            </div>
+
+
+            <div class="form-row">
+
+                <label class="form-checkbox">
+                    <span>Gender</span>
+                    <input type="radio" name="gender"  value="male"checked>male
+                    <input type="radio" name="gender" value="female">female
+                </label>
+
+            </div>
+
+            <div class="form-row">
+
+                <button type="submit"> Submit</button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+                </div>
+
+							</div>
+            </div>
+          </div>
+
+        </div>
+        </div>
+        <!-- #endregion Jssor Slider End -->
+       
+        <div class="container-fluid">
+          <div class="row text-center">
+
+            <div class="col-lg-4 col-lg-4 col-lg-4">
+              <div class="thumbnail">
+              <div class="para1">
+                <div class="caption">
+                  <h3 style="color:black;">Who we are?</h3>
+                  <p>Concieved,Created and Developed by a awe inspiring gang of college students! So you can be sure that not everything comes from harvard!</p>
+                  <p>Who else can design a better product than the youth for youth's career launch pad?</p>
+                  <p>Vision Simple!</p>
+                  <p>EVERY ONE SHOULD BE EMPLOYED!</p>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-lg-4 col-lg-4">
+              <div class="thumbnail">
+								<img src="img/ad2.jpg" alt="Thumbnail Image 1" class="img-responsive">
+                <div class="caption">
+                  <h3></h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-lg-4 col-lg-4">
+
+              <div class="thumbnail">
+             <div class="para">
+                <div class="caption">
+
+                  <h3 style="color:black;">What is JobsQube?</h3>
+                  <p>JobsQube is inspired by the unemployment crisis across the globe!</p>
+                  <p>Pre launched on  April 14th 2016.</p>
+                  <p>Its architecuture and features will beat the mundane available currently by a mile!</p>
+                  <p>To put it simple , Recruitment for an employer and seeking job for a person should be fun.</p>
+                  <p>Definitely should not be a disgusting affair thought!</p>
+                  <p>45 days count down ... Its worth the wait and anxiety! </p>
+                </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          </div>
+          
+
+          <div class="footer">
+			© 2016 - Copyrights by Qubecle Foundation
+		</div>
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-1.11.2.min.js"></script>
+</body>
+</html>

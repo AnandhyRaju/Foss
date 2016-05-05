@@ -1,0 +1,21 @@
+body
+{
+   background-color:#BDBDBD;
+}
+#contact
+{
+
+   width:100px;
+   height:200px;
+   margin-top:0;
+   background-color:#585858;
+   border-radius:0px;
+   box-shadow:0px 0px 0px 0px #424242;
+   padding:90px;
+   box-sizing:border-box;
+   font-family:helvetica;
+   visibility:hidden;
+   display:none;
+      
+        
+}
